@@ -1,4 +1,17 @@
 android_device_samsung_e120k-ls 
 ===============================
 
-Device LiquidSmooth E120K
+Device LiquidSmooth
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Please do not manually edit this file-->
+<manifest>
+  <project name="evnit/android_device_samsung_e120k-ls" path="device/samsung/e120k" remote="gh" revision="kitkat" />
+  <project name="evnit/android_vendor_samsung_e120k" path="vendor/samsung/e120k" remote="gh" revision="cm-11.0" />
+  <project name="evnit/android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-common" remote="gh" revision="cm-11.0" />
+  <project name="evnit/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="gh" revision="cm-11.0" />
+  <project name="evnit/android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="gh" revision="cm-11.0" />
+  <project name="evnit/android_device_samsung_celox-common" path="device/samsung/celox-common" remote="gh" revision="cm-11.0" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="gh" revision="cm-11.0" />
+</manifest>
